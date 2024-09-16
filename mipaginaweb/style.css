@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre las imágenes y el video */
+}
+.container img, .container iframe {
+    width: 200px; /* Tamaño de las imágenes */
+    height: auto;
+}
+
+.container iframe {
+    width: 500px; /* Tamaño del video */
+}
+
+.logotipo{
+    background-color: rgb(43, 101, 101);
+}
+.quemas{
+    background-color: blueviolet;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
